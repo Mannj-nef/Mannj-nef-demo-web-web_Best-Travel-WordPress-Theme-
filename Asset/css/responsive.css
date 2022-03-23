@@ -1,0 +1,132 @@
+/* tablet pro */
+@media (max-width: 1024px) {
+    .header__nav-link {
+        padding: 19px 3px;
+    }
+    .content__body--slider-wrap {
+        width: 100%;
+    }
+    .input__control-wrap {
+        left: 30%;
+    }
+}
+
+/* tablet ang mobile*/
+@media (max-width: 1023px) {
+    .s-m-b-50 {
+        margin-bottom: 50px;
+    }
+    .header__nav-list {
+        display: none;
+    }
+    .travel__section {
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    .travel__item {
+        width: 100%;
+        text-align: center;
+    }
+    .content__title-wrap-footer {
+        position: initial;
+        margin-bottom: 15px;
+    }
+    .search__input {
+        border: none;
+    }
+}
+
+/* tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+    .slider__content-title {
+        padding: 0 50px;
+        text-align: center;
+    }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+    .grid.wide.header__wrap {
+        padding: 0 20px;
+    }
+    .header__menu--content {
+        width: 100%;
+    }
+    .slider {
+        padding: 0;
+    }
+    .slider__content-title {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .slider__content-sub--title {
+        padding: 0 10px;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .content__title {
+        font-size: 3rem;
+    }
+    .content_top {
+        padding: 0;
+    }
+    .content__wrap {
+        padding: 60px 16px 57px;
+    }
+    .travel__slide-content {
+        flex-direction: column;
+    }
+    .tracel__slider-title-wrap {
+        margin-bottom: 10px;
+        padding: 0 33px;
+    }
+    .travel__slider-title {
+        font-size: 3.5rem;
+    }
+    .travel__slider-title-foot {
+        font-size: 4rem;
+    }
+    .input__control-wrap {
+        left: 53px;
+    }
+    .btn__book--tickets {
+        display: block;
+        text-align: center;
+    }
+    .option__countdown {
+        width: 100%;
+    }
+    .tour__packages--wrap {
+        margin-bottom: 30px;
+    }
+    .btn__slider {
+        display: block;
+    }
+    .btn__packages--travel-tour {
+        display: block;
+        text-align: center;
+    }
+    .footer__top {
+        padding: 70px 16px 0 16px;
+    }
+    .footer__body-list-info-travel-wrap{
+        text-align: center;
+    }
+    .info__travel-heading {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
+    .info__travel--item-span{
+        margin-right: 0;
+    }
+    .info__travel--item {
+        display: inline-block;
+        margin: 0 5px;
+    }
+    .content__body-foot-info {
+        flex-direction: column;
+    }
+    .content__body-foot-detail {
+        line-height: initial;
+    }
+}
